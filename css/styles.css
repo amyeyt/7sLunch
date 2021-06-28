@@ -1,3 +1,4 @@
+
 /* /* categories page  */
 /* Body, just for my page can edit to fix later */
 body {
@@ -15,4 +16,12 @@ body {
 }
 .hi {
     background-color: #C8D5B9;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 200px;
 }
