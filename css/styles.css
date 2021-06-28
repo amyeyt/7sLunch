@@ -1,3 +1,22 @@
+
+/* /* categories page  */
+/* Body, just for my page can edit to fix later */
+body {
+    background-color: #4A7C59;
+}
+/* header */
+.header {
+    margin-top: 60px;
+    font-size: 80px;
+    color: white;
+    letter-spacing: 7px;
+    font-weight: 900;
+    font-family: 'Archivo Black', sans-serif;
+    text-shadow: 2px 2px black;
+}
+.hi {
+    background-color: #C8D5B9;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -5,5 +24,4 @@ html, body {
 
 header {
     height: 200px;
-    
 }
