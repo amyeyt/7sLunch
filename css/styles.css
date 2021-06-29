@@ -65,5 +65,6 @@ main, .wrapper {
   border-radius: 10px;
   color: #FFFFFF;
   text-align: center;
-  font-size: calc(3.5rem + 1vw)
+  font-size: calc(3.5rem + 1vw);
+  text-shadow: -5px 0px 0px #000;
 } 
