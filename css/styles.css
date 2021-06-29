@@ -1,0 +1,41 @@
+.wrapper{
+    background-color: #4A7C59;
+}
+.learning-hero{
+    max-height: 350px;
+}
+.progress, .login{
+    border-radius: 20px;
+    background-color: #8FC0A9;
+    height: fit-content;
+    box-shadow: 1px 1px 2px;
+}
+.progress{
+    font-size: calc(1.525rem + 2vw);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.strive{
+    font-size: 12px;
+}
+.login{
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.loginform{
+    box-shadow: 1px 1px 2px;
+}
+.footer{
+    background-color: #34553E;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.footeremail{
+    border-radius: 20px;
+}
+.footerlink{
+    color: white;
+    text-decoration: none;
+}
