@@ -40,3 +40,10 @@ header {
     object-fit: cover;
     }
 
+.navbar {
+  background-color: #4A7C59;
+}
+
+.nav-item {
+  border: 2px solid #BFCBB2;
+}
