@@ -22,6 +22,50 @@ html, body {
     padding: 0;
 }
 
+header {
+    height: 200px;
+}
+
+/* lenis */
+.hero{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+
+    background:rgba(0, 0, 0, .4) url("../images/farm-robot.jpg");
+    /* height: 100vh; */
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    background-blend-mode: overlay;
+}
+.product-info {
+    background-color: #C8D5B9;
+    display: block;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, .7);
+}
+
+ul {
+    vertical-align: baseline;
+    color: gold;
+    align-content: flex-start;
+    
+}
+ol {
+    list-style-type: none;
+}
+
+small{
+    color: white;
+}
+.bluebutton {
+    background-color: #8FC0A9;
+}
+
+/* lenis end */
 main, .wrapper {
   background-color: #4A7C59;
 }
