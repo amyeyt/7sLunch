@@ -19,22 +19,23 @@
                 <a class="navbar-brand ms-3 p-2" href="./index.html"><img id="navbar_logo" src="/images/Component 2.png" alt="Homepage Logo" width="75px"></a>
                 <div class="search_bar">
                   <form action="/" method="GET" class="form">
-                    <input type="search" placeholder="Search" class="search-field" />
+                    <input type="search" placeholder="Search..." class="search-field" />
                     <button type="submit" class="search-button">
-                      <img src="/images/search.png">
+                      <!-- <img src="/images/search.png"> -->
+                      <i class="fas fa-search"></i>
                     </button>
                   </form>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
                     <li class="nav-item m-3">
-                      <a class="nav-link text-white" aria-current="page" href="#">Courses</a>
+                      <a class="nav-link text-white fw-bold" aria-current="page" href="#">Courses</a>
                     </li>
                     <li class="nav-item m-3">
-                      <a class="nav-link text-white" aria-current="page" href="#">Login</a>
+                      <a class="nav-link text-white fw-bold" aria-current="page" href="#">Login</a>
                     </li>
                     <li class="nav-item m-3">
-                      <a class="nav-link text-white" href="#">Register</a>
+                      <a class="nav-link text-white fw-bold" href="#">Register</a>
                     </li>
                     <li class="cart_logo m-3">
                       <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
@@ -52,7 +53,7 @@
       <main>
 
         <!-- hero section -->
-        <section class="container mx-auto px-2 d-flex justify-content-center align-items-center">
+        <section class="container mx-auto mb-5 px-2 d-flex justify-content-center align-items-center">
           <div class="_hero row w-100 mx-auto align-items-center">
             <div class="col-lg-6 p-3">
               <div class="row"><h2 class="text-white">Learning Anywhere,<br>All the Time!</h2></div>
@@ -66,8 +67,34 @@
         </section>
         
         <!-- categories section -->
-        <section class="container">
-
+        <section class="_home_categories container">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-12 text-center">
+              <h2 class="section_title fw-bold">CATEGORIES</h2>
+            </div>
+          <div class="row row-cols-lg-6 row-cols-md-2 row-cols-1 d-flex justify-content-center align-items-center">
+            <div class="col mx-2">
+              <div class="row _category_cards"><img src="/images/automotive.png" alt=""></div>
+              <div class="row my-2 _category_label"></div>
+            </div>
+            <div class="col mx-2">
+              <div class="row _category_cards"><img src="/images/farming.jpg" alt=""></div>
+              <div class="row my-2 _category_label"></div>
+            </div>
+            <div class="col mx-2">
+              <div class="row _category_cards"><img src="/images/computer-science.jpg" alt=""></div>
+              <div class="row my-2 _category_label"></div>
+            </div>
+            <div class="col mx-2">
+              <div class="row _category_cards"><img src="/images/law.jpg" alt=""></div>
+              <div class="row my-2 _category_label"></div>
+            </div>
+            <div class="col mx-2">
+              <div class="row _category_cards"><img src="/images/construction.jpg" alt=""></div>
+              <div class="row my-2 _category_label"></div>
+            </div>
+          </div>
+          </div>
         </section>
 
         <!-- popular courses section -->
