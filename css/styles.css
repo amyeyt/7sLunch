@@ -28,12 +28,34 @@
     box-shadow: 1px 1px 2px;
 }
 .footer{
+    padding-top: 30px;
     background-color: #34553E;
     font-family: 'Roboto', sans-serif;
     color: white;
+    position: sticky
+}
+.footerlink{
+    font-size: calc(1rem + 1vw);
+}
+.footerlink:hover{
+    color: #a4b0bd;
 }
 .footeremail{
     border-radius: 20px;
+}
+.footsubmit{
+    margin-top: 5px;
+    background-color: #34553E;
+    border: solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    height: 54.63px;
+    font-size: 12px;
+}
+.footsubmit:hover{
+    transition: 0.1s;
+    color: #a4b0bd;
+    border: solid #a4b0bd;
 }
 .footerlink{
     color: white;
