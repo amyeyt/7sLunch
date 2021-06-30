@@ -29,16 +29,13 @@ main, .wrapper {
   background-color: #4A7C59;
 }
 
-header {
-    height: 200px;
-}
 .hi {
     font-size: calc(1.525rem + 3.3vw);
   }
   
   @media (min-width: 1200px) {
     .hi {
-      font-size: 7rem;
+      font-size: 8rem;
     }
   }
 /* Head end */
@@ -197,3 +194,28 @@ h1 {
 } 
 
 
+
+
+
+
+
+
+
+
+
+
+/* Toast */
+.btn {
+  border: 1px black;
+
+}
+.toast-body {
+  width: 700px;
+  background-color: #4A7C59;
+  border: 2px solid black;
+}
+.tp {
+  font-size: xx-large;
+}
+
+/* end of toast */
