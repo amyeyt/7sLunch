@@ -32,7 +32,7 @@ main, .wrapper {
   
   @media (min-width: 1200px) {
     .hi {
-      font-size: 7rem;
+      font-size: 8rem;
     }
   }
 /* Head end */
@@ -255,6 +255,33 @@ h1 {
   text-size-adjust: 70%;
 }
 
+
 ._courses_groups div {
   margin: 15px 0px;
 }
+
+
+
+
+
+
+
+
+
+
+/* Toast */
+.btn {
+  border: 1px black;
+
+}
+.toast-body {
+  width: 700px;
+  background-color: #4A7C59;
+  border: 2px solid black;
+}
+.tp {
+  font-size: xx-large;
+}
+
+/* end of toast */
+
