@@ -107,6 +107,7 @@ main, .wrapper {
 h2 {
     color: white;
 }
+
 h1 {
     color: white;
     font-size: 200px;
@@ -169,6 +170,8 @@ h1 {
 .nav-item {
   border: 2px solid #BFCBB2;
 }
+
+
 
 ._hero {
   background-color: #BFCBB2;
