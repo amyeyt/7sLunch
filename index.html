@@ -19,22 +19,23 @@
                 <a class="navbar-brand ms-3 p-2" href="./index.html"><img id="navbar_logo" src="/images/Component 2.png" alt="Homepage Logo" width="75px"></a>
                 <div class="search_bar">
                   <form action="/" method="GET" class="form">
-                    <input type="search" placeholder="Search" class="search-field" />
+                    <input type="search" placeholder="Search..." class="search-field" />
                     <button type="submit" class="search-button">
-                      <img src="/images/search.png">
+                      <!-- <img src="/images/search.png"> -->
+                      <i class="fas fa-search"></i>
                     </button>
                   </form>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
                     <li class="nav-item m-3">
-                      <a class="nav-link text-white" aria-current="page" href="/pages/courses.html">Courses</a>
+                      <a class="nav-link text-white fw-bold" aria-current="page" href="#">Courses</a>
                     </li>
                     <li class="nav-item m-3">
-                      <a class="nav-link text-white" aria-current="page" href="#">Login</a>
+                      <a class="nav-link text-white fw-bold" aria-current="page" href="#">Login</a>
                     </li>
                     <li class="nav-item m-3">
-                      <a class="nav-link text-white" href="#">Register</a>
+                      <a class="nav-link text-white fw-bold" href="#">Register</a>
                     </li>
                     <li class="cart_logo m-3">
                       <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
@@ -52,7 +53,7 @@
       <main>
 
         <!-- hero section -->
-        <section class="container mx-auto px-2 d-flex justify-content-center align-items-center">
+        <section class="container mx-auto mb-5 px-2 d-flex justify-content-center align-items-center">
           <div class="_hero row w-100 mx-auto align-items-center">
             <div class="col-lg-6 p-3">
               <div class="row"><h2 class="text-white">Learning Anywhere,<br>All the Time!</h2></div>
@@ -66,14 +67,97 @@
         </section>
         
         <!-- categories section -->
-        <section class="container">
-
+        <section class="_home_categories container mb-4 pb-4">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-12 text-center">
+              <h2 class="section_title fw-bold">CATEGORIES</h2>
+            </div>
+            <div class="row row-cols-lg-6 row-cols-md-2 row-cols-1 d-flex justify-content-center align-items-center">
+              <div class="col mx-2">
+                <div class="row _category_cards"><img src="/images/automotive.png" alt=""></div>
+                <div class="row my-2 mx-auto _category_label text-center"><p>Automotive</p></div>
+              </div>
+              <div class="col mx-2">
+                <div class="row _category_cards"><img src="/images/farming.jpg" alt=""></div>
+                <div class="row my-2 mx-auto _category_label text-center"><p>Agriculture</p></div>
+              </div>
+              <div class="col mx-2">
+                <div class="row _category_cards"><img src="/images/computer-science.jpg" alt=""></div>
+                <div class="row my-2 mx-auto _category_label text-center"><p>Computer Science</p></div>
+              </div>
+              <div class="col mx-2">
+                <div class="row _category_cards"><img src="/images/law.jpg" alt=""></div>
+                <div class="row my-2 mx-auto _category_label text-center"><p>Law</p></div>
+              </div>
+              <div class="col mx-2">
+                <div class="row _category_cards"><img src="/images/construction.jpg" alt=""></div>
+                <div class="row my-2 mx-auto _category_label text-center"><p>Construction</p></div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <!-- popular courses section -->
-        <section class="container">
+        <section class="popular_courses container mx-auto my-4 p-5">
 
+          <!--  -->
+          <div class="row d-flex justify-content-center align-items-center mb-4">
+            <div class="col-12 text-center my-4">
+              <h2 class="display-1 fw-bold">Popular Courses</h2>
+            </div>
+          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 d-flex justify-content-around align-items-center">
+            <div class="col _courses_groups">
+              <div class="row _course_cards"><img src="./images/Rectangle 35.png" alt="Car repair photo"></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>Basic Car and Truck Repair</p></div>
+            </div>
+            <div class="col">
+              <div class="row _course_cards"><img src="./images/Rectangle 36.png" alt="Diesel motors photo"></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>Basics in Diesel Motors</p></div>
+            </div>
+            <div class="col">
+              <div class="row _course_cards"><img src="./images/Rectangle 37.png" alt=""></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>Basics in EV’s and Hybrids</p></div>
+            </div>
+            <div class="col">
+              <div class="row _course_cards"><img src="./images/Rectangle 38.png" alt="Weed course photo"></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>How to Grow Weed</p></div>
+            </div>
+            <div class="col">
+              <div class="row _course_cards"><img src="./images/farm-robot-course-photo.png" alt="Farm Robot course photo"></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>Farm Robots</p></div>
+            </div>
+            <div class="col">
+              <div class="row _course_cards"><img src="./images/Rectangle 40.png" alt="Farm water system photo"></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>How to Use Too Much Water to Keep Humans Alive</p></div>
+            </div>
+            <div class="col">
+              <div class="row _course_cards"><img src="./images/Rectangle 41.png" alt="Photo of computer internals"></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>How to Build a Computer</p></div>
+            </div>
+            <div class="col">
+              <div class="row _course_cards"><img src="./images/Rectangle 42.png" alt="Photo of computer code"></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>How to  Tell Your Computer What to Do</p></div>
+            </div>
+            <div class="col">
+              <div class="row _course_cards"><img src="./images/Rectangle 43.png" alt="phone viruses photo"></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>How to Remove Viruses</p></div>
+            </div>
+            <div class="col">
+              <div class="row _course_cards"><img src="./images/Rectangle 44.png" alt="photo of judge's gavel"></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>How to Practice Law</p></div>
+            </div>
+            <div class="col">
+              <div class="row _course_cards"><img src="./images/Rectangle 45.png" alt="photo of planet Earth"></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>How to Practice International Law</p></div>
+            </div>
+            <div class="col">
+              <div class="row _course_cards"><img src="./images/Rectangle 46.png" alt="photo of convict by bars"></div>
+              <div class="row my-2 mx-auto _course_label text-center"><p>Learning to Defend People you Don’t Like</p></div>
+            </div>
+          </div>
         </section>
+
+
       </main>
 
       <!-- footer section -->
