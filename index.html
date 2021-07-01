@@ -33,10 +33,10 @@
                     <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/courses.html">Courses</a>
                   </li>
                   <li class="nav-item m-3">
-                    <a class="nav-link text-white fw-bold" aria-current="page" href="https://example.com">Login</a>
+                    <a class="nav-link text-white fw-bold" aria-current="page" href="#login">Login</a>
                   </li>
                   <li class="nav-item m-3">
-                    <a class="nav-link text-white fw-bold" href="https://example.com">Register</a>
+                    <a class="nav-link text-white fw-bold" href="#login">Register</a>
                   </li>
                   <li class="cart_logo m-3">
                     <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
@@ -55,7 +55,7 @@
             <div class="_hero row w-100 mx-auto align-items-center">
               <div class="col-lg-6 p-3">
                 <div class="row"><h2 class="text-white">Learning Anywhere,<br>All the Time!</h2></div>
-                <div class="row"><button id="get_started">Get Started</button></div>
+                <div class="row"><button id="get_started" onclick="window.location.href='./pages/product.html';">Get Started</button></div>
                 <div class="row"><p class="text-white display-6">iQ+ builds courses that are powerful and engaging. Enroll and learn exactly what you want today!</p></div>
               </div>
               <div class="col-lg-4 p-2 offset-lg-1 me-5">
@@ -123,8 +123,8 @@
                 <div class="row my-2 mx-auto _course_label text-center"><p>How to Grow Weed</p></div>
               </div>
               <div class="col">
-                <div class="row _course_cards"><img src="./images/farm-robot-course-photo.png" alt="Farm Robot course photo"></div>
-                <div class="row my-2 mx-auto _course_label text-center"><p>Farm Robots</p></div>
+                <a href="./pages/product.html"><div class="row _course_cards"><img src="./images/farm-robot-course-photo.png" alt="Farm Robot course photo"></div></a>
+                <a href="./pages/product.html"><div class="row my-2 mx-auto _course_label text-center"><p>Farm Robots</p></div></a>
               </div>
               <div class="col">
                 <div class="row _course_cards"><img src="./images/Rectangle 40.png" alt="Farm water system photo"></div>
@@ -180,7 +180,7 @@
             </div>
 
             <!-- login -->
-            <div class="login p-5 container container-fluid">
+            <div class="login p-5 container container-fluid" id="login">
                 <div class="row ">
                     <div class="col-4">
                         <p class="fs-4">

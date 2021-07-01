@@ -286,7 +286,7 @@ h1 {
   max-width: 75%;
   padding: 14px 0px;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px 2px rgba(41, 41, 41, 0.6);;
+  box-shadow: 2px 2px 5px 2px rgba(41, 41, 41, 0.6);
 }
 
 ._course_label p {
@@ -294,6 +294,9 @@ h1 {
   text-size-adjust: 70%;
 }
 
+.popular_courses a {
+  text-decoration: none;
+}
 
 ._courses_groups div {
   margin: 15px 0px;
