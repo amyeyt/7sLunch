@@ -1,4 +1,3 @@
-
 /* /* categories page  */
 /* Body, just for my page can edit to fix later */
 /* header */
@@ -291,7 +290,7 @@ h1 {
   max-width: 75%;
   padding: 14px 0px;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px 2px rgba(41, 41, 41, 0.6);;
+  box-shadow: 2px 2px 5px 2px rgba(41, 41, 41, 0.6);
 }
 
 ._course_label p {
@@ -299,19 +298,13 @@ h1 {
   text-size-adjust: 70%;
 }
 
+.popular_courses a {
+  text-decoration: none;
+}
 
 ._courses_groups div {
   margin: 15px 0px;
 }
-
-
-
-
-
-
-
-
-
 
 /* Toast */
 .btn {
@@ -329,3 +322,71 @@ h1 {
 
 /* end of toast */
 
+/* paul */
+.wrapper{
+    background-color: #4A7C59;
+}
+.learning-hero{
+    max-height: 350px;
+}
+.progress, .login{
+    border-radius: 20px;
+    background-color: #8FC0A9;
+    height: fit-content;
+    box-shadow: 1px 1px 2px;
+}
+.progress{
+    font-size: calc(1.525rem + 2vw);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.strive{
+    font-size: 12px;
+}
+.login{
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.loginform{
+    box-shadow: 1px 1px 2px;
+}
+.footer{
+    padding-top: 30px;
+    background-color: #34553E;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: sticky
+}
+.footerlink{
+    font-size: calc(1rem + 1vw);
+}
+.footerlink:hover{
+    color: #a4b0bd;
+}
+.footeremail{
+    border-radius: 20px;
+}
+.footsubmit{
+    margin-top: 5px;
+    background-color: #34553E;
+    border: solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    height: 54.63px;
+    font-size: 12px;
+}
+.footsubmit:hover{
+    transition: 0.1s;
+    color: #a4b0bd;
+    border: solid #a4b0bd;
+}
+.footerlink{
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    margin-top: -41px;
+}
+/* end */

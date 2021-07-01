@@ -4,168 +4,302 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ+ Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rokkitt&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/885ee2c56d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Q+ College Home</title>
 </head>
 <body>
     <div class="wrapper">
-
-      <!-- header section -->
-      <header>
-          <nav class="navbar navbar-expand-lg navbar-dark">
-              <div class="container-fluid d-flex">
-                <a class="navbar-brand ms-3 p-2" href="./index.html"><img id="navbar_logo" src="/images/Component 2.png" alt="Homepage Logo" width="75px"></a>
-                <div class="search_bar">
-                  <form action="/" method="GET" class="form">
-                    <input type="search" placeholder="Search..." class="search-field" />
-                    <button type="submit" class="search-button">
-                      <!-- <img src="/images/search.png"> -->
-                      <i class="fas fa-search"></i>
-                    </button>
-                  </form>
-                </div>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
-                    <li class="nav-item m-3">
-                      <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/courses.html">Courses</a>
-                    </li>
-                    <li class="nav-item m-3">
-                      <a class="nav-link text-white fw-bold" aria-current="page" href="https://example.com">Login</a>
-                    </li>
-                    <li class="nav-item m-3">
-                      <a class="nav-link text-white fw-bold" href="https://example.com">Register</a>
-                    </li>
-                    <li class="cart_logo m-3">
-                      <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
-                    </li>
-                  </ul>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
+              <!-- header section -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid d-flex">
+              <a class="navbar-brand ms-3 p-2" href="./index.html"><img id="navbar_logo" src="/images/Component 2.png" alt="Homepage Logo" width="75px"></a>
+              <div class="search_bar">
+                <form action="/" method="GET" class="form">
+                  <input type="search" placeholder="Search..." class="search-field" />
+                  <button type="submit" class="search-button">
+                    <!-- <img src="/images/search.png"> -->
+                    <i class="fas fa-search"></i>
+                  </button>
+                </form>
               </div>
-            </nav>
-      </header>
-
-      <!-- main content -->
-      <main>
-
-        <!-- hero section -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                  <li class="nav-item m-3">
+                    <a class="nav-link text-white fw-bold" aria-current="page" href="./pages/courses.html">Courses</a>
+                  </li>
+                  <li class="nav-item m-3">
+                    <a class="nav-link text-white fw-bold" aria-current="page" href="#login">Login</a>
+                  </li>
+                  <li class="nav-item m-3">
+                    <a class="nav-link text-white fw-bold" href="#login">Register</a>
+                  </li>
+                  <li class="cart_logo m-3">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+        </header>
+        <main>
+                    <!-- hero section -->
         <section class="container mx-auto mb-5 px-2 d-flex justify-content-center align-items-center">
-          <div class="_hero row w-100 mx-auto align-items-center">
-            <div class="col-lg-6 p-3">
-              <div class="row"><h2 class="text-white">Learning Anywhere,<br>All the Time!</h2></div>
-              <div class="row"><button id="get_started">Get Started</button></div>
-              <div class="row"><p class="text-white display-6">iQ+ builds courses that are powerful and engaging. Enroll and learn exactly what you want today!</p></div>
-            </div>
-            <div class="col-lg-4 p-2 offset-lg-1 me-5">
-              <img src="/images/test 1.png" alt="test graphic">
-            </div>
-          </div>
-        </section>
-        
-        <!-- categories section -->
-        <section class="_home_categories container mb-4 pb-4">
-          <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-12 text-center">
-              <h2 class="section_title fw-bold">CATEGORIES</h2>
-            </div>
-            <div class="row row-cols-lg-6 row-cols-md-2 row-cols-1 d-flex justify-content-center align-items-center">
-              <div class="col mx-2">
-                <div class="row _category_cards"><img src="/images/automotive.png" alt=""></div>
-                <div class="row my-2 mx-auto _category_label text-center"><p>Automotive</p></div>
+            <div class="_hero row w-100 mx-auto align-items-center">
+              <div class="col-lg-6 p-3">
+                <div class="row"><h2 class="text-white">Learning Anywhere,<br>All the Time!</h2></div>
+                <div class="row"><button id="get_started" onclick="window.location.href='./pages/product.html';">Get Started</button></div>
+                <div class="row"><p class="text-white display-6">iQ+ builds courses that are powerful and engaging. Enroll and learn exactly what you want today!</p></div>
               </div>
-              <div class="col mx-2">
-                <div class="row _category_cards"><img src="/images/farming.jpg" alt=""></div>
-                <div class="row my-2 mx-auto _category_label text-center"><p>Agriculture</p></div>
-              </div>
-              <div class="col mx-2">
-                <div class="row _category_cards"><img src="/images/computer-science.jpg" alt=""></div>
-                <div class="row my-2 mx-auto _category_label text-center"><p>Computer Science</p></div>
-              </div>
-              <div class="col mx-2">
-                <div class="row _category_cards"><img src="/images/law.jpg" alt=""></div>
-                <div class="row my-2 mx-auto _category_label text-center"><p>Law</p></div>
-              </div>
-              <div class="col mx-2">
-                <div class="row _category_cards"><img src="/images/construction.jpg" alt=""></div>
-                <div class="row my-2 mx-auto _category_label text-center"><p>Construction</p></div>
+              <div class="col-lg-4 p-2 offset-lg-1 me-5">
+                <img src="/images/test 1.png" alt="test graphic">
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+          
+          <!-- categories section -->
+          <section class="_home_categories container mb-4 pb-4">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-12 text-center">
+                <h2 class="section_title fw-bold">CATEGORIES</h2>
+              </div>
+              <div class="row row-cols-lg-6 row-cols-md-2 row-cols-1 d-flex justify-content-center align-items-center">
+                <div class="col mx-2">
+                  <div class="row _category_cards"><img src="/images/automotive.png" alt=""></div>
+                  <div class="row my-2 mx-auto _category_label text-center"><p>Automotive</p></div>
+                </div>
+                <div class="col mx-2">
+                  <div class="row _category_cards"><img src="/images/farming.jpg" alt=""></div>
+                  <div class="row my-2 mx-auto _category_label text-center"><p>Agriculture</p></div>
+                </div>
+                <div class="col mx-2">
+                  <div class="row _category_cards"><img src="/images/computer-science.jpg" alt=""></div>
+                  <div class="row my-2 mx-auto _category_label text-center"><p>Computer Science</p></div>
+                </div>
+                <div class="col mx-2">
+                  <div class="row _category_cards"><img src="/images/law.jpg" alt=""></div>
+                  <div class="row my-2 mx-auto _category_label text-center"><p>Law</p></div>
+                </div>
+                <div class="col mx-2">
+                  <div class="row _category_cards"><img src="/images/construction.jpg" alt=""></div>
+                  <div class="row my-2 mx-auto _category_label text-center"><p>Construction</p></div>
+                </div>
+              </div>
+            </div>
+          </section>
+  
+          <!-- popular courses section -->
+          <section class="popular_courses container mx-auto my-4 p-5">
+  
+            <!-- section title -->
+            <div class="row d-flex justify-content-center align-items-center mb-4">
+              <div class="col-12 text-center my-4">
+                <h2 class="display-1 fw-bold">Popular Courses</h2>
+              </div>
+              
+            <!-- section grid -->
+            <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 d-flex justify-content-around align-items-center">
+              <div class="col _courses_groups">
+                <div class="row _course_cards"><img src="./images/Rectangle 35.png" alt="Car repair photo"></div>
+                <div class="row my-2 mx-auto _course_label text-center"><p>Basic Car and Truck Repair</p></div>
+              </div>
+              <div class="col">
+                <div class="row _course_cards"><img src="./images/Rectangle 36.png" alt="Diesel motors photo"></div>
+                <div class="row my-2 mx-auto _course_label text-center"><p>Basics in Diesel Motors</p></div>
+              </div>
+              <div class="col">
+                <div class="row _course_cards"><img src="./images/Rectangle 37.png" alt=""></div>
+                <div class="row my-2 mx-auto _course_label text-center"><p>Basics in EV’s and Hybrids</p></div>
+              </div>
+              <div class="col">
+                <div class="row _course_cards"><img src="./images/Rectangle 38.png" alt="Weed course photo"></div>
+                <div class="row my-2 mx-auto _course_label text-center"><p>How to Grow Weed</p></div>
+              </div>
+              <div class="col">
+                <a href="./pages/product.html"><div class="row _course_cards"><img src="./images/farm-robot-course-photo.png" alt="Farm Robot course photo"></div></a>
+                <a href="./pages/product.html"><div class="row my-2 mx-auto _course_label text-center"><p>Farm Robots</p></div></a>
+              </div>
+              <div class="col">
+                <div class="row _course_cards"><img src="./images/Rectangle 40.png" alt="Farm water system photo"></div>
+                <div class="row my-2 mx-auto _course_label text-center"><p>How to Use Too Much Water to Keep Humans Alive</p></div>
+              </div>
+              <div class="col">
+                <div class="row _course_cards"><img src="./images/Rectangle 41.png" alt="Photo of computer internals"></div>
+                <div class="row my-2 mx-auto _course_label text-center"><p>How to Build a Computer</p></div>
+              </div>
+              <div class="col">
+                <div class="row _course_cards"><img src="./images/Rectangle 42.png" alt="Photo of computer code"></div>
+                <div class="row my-2 mx-auto _course_label text-center"><p>How to  Tell Your Computer What to Do</p></div>
+              </div>
+              <div class="col">
+                <div class="row _course_cards"><img src="./images/Rectangle 43.png" alt="phone viruses photo"></div>
+                <div class="row my-2 mx-auto _course_label text-center"><p>How to Remove Viruses</p></div>
+              </div>
+              <div class="col">
+                <div class="row _course_cards"><img src="./images/Rectangle 44.png" alt="photo of judge's gavel"></div>
+                <div class="row my-2 mx-auto _course_label text-center"><p>How to Practice Law</p></div>
+              </div>
+              <div class="col">
+                <div class="row _course_cards"><img src="./images/Rectangle 45.png" alt="photo of planet Earth"></div>
+                <div class="row my-2 mx-auto _course_label text-center"><p>How to Practice International Law</p></div>
+              </div>
+              <div class="col">
+                <div class="row _course_cards"><img src="./images/Rectangle 46.png" alt="photo of convict by bars"></div>
+                <div class="row my-2 mx-auto _course_label text-center"><p>Learning to Defend People you Don’t Like</p></div>
+              </div>
+            </div>
+          </section>
+            <!-- Your Progress is Our Mission! -->
+            <div class="progress p-5 container container-fluid">
+                <div class="row ">
+                  <div class="col">
+                    <img class="learning-hero img-fluid border border-2 border-dark" src="./images/learning-hero.png" alt="learning-hero">
+                  </div>
+                  <div class="col">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="text-center fw-bold">
+                                Your Progress is Our Mission!
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <p class="strive text-center fw-bold">
+                                We strive to teach you every day. Many modern bootcamps and online classes are not engaging or professionally managed, but we are here to change that. Not only do we want to make sure that you learn, we want to make sure that you are having fun. Boring and monotone lectures are a thing of the past, not only because we have the technology to bring new ideas to you, but because you deserve it!
+                            </p>
+                        </div>
+                    </div>
+                  </div>  
+                </div>
+            </div>
 
-        <!-- popular courses section -->
-        <section class="popular_courses container mx-auto my-4 p-5">
-
-          <!-- section title -->
-          <div class="row d-flex justify-content-center align-items-center mb-4">
-            <div class="col-12 text-center my-4">
-              <h2 class="display-1 fw-bold">Popular Courses</h2>
+            <!-- login -->
+            <div class="login p-5 container container-fluid" id="login">
+                <div class="row ">
+                    <div class="col-4">
+                        <p class="fs-4">
+                            Make a login:
+                        </p>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email:</label>
+                            <input type="email" class="loginform form-control border border-3 border-dark">
+                          </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Password:</label>
+                            <input type="password" class="loginform form-control border border-3 border-dark">
+                          </div>
+                    </div>
+                </div>
             </div>
-            
-          <!-- section grid -->
-          <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 d-flex justify-content-around align-items-center">
-            <div class="col _courses_groups">
-              <div class="row _course_cards"><img src="./images/Rectangle 35.png" alt="Car repair photo"></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>Basic Car and Truck Repair</p></div>
+        </main>
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-3 p-5">
+                        <ul class="list-unstyled text-center">
+                            <li>
+                                <a class="footerlink" href="">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footerlink" href="">
+                                    Contact
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footerlink" href="">
+                                    Categories
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footerlink" href="">
+                                    Courses
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footerlink" href="">
+                                    Careers
+                                </a>
+                            </li>
+                            <li>
+                                <a class="footerlink" href="">
+                                    Register
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col p-5 d-flex justify-content-center text-center">
+                        <div class="row p-2">
+                            <div class="col-12">
+                                <p>
+                                    Sign up for our newsletter to get upcoming information on newly added courses 
+                                </p>
+                            </div>
+                            <div class="col">
+                                <input type="email" class="footeremail form-control" placeholder="Email...">
+                                <button class="footsubmit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="./images/—Pngtree—working at home co working_5375143 1.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <!-- social icons and copyright -->
+                <div class="row justify-content-center">
+                    <div class="social col d-flex justify-content-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M172.215,35.905c-6.35594,2.82188 -13.16875,4.71656 -20.33094,5.57656c7.31,-4.38063 12.92687,-11.31438 15.56062,-19.565c-6.82625,4.04469 -14.41844,6.9875 -22.4675,8.57312c-6.45,-6.88 -15.64125,-11.16656 -25.81344,-11.16656c-19.53812,0 -35.38094,15.82937 -35.38094,35.3675c0,2.76812 0.3225,5.46906 0.92719,8.0625c-29.40125,-1.47813 -55.45656,-15.56063 -72.91187,-36.96656c-3.05031,5.24062 -4.78375,11.31437 -4.78375,17.79125c0,12.26844 6.235,23.09906 15.73531,29.455c-5.805,-0.18813 -11.26062,-1.78719 -16.03094,-4.43438c0,0.14781 0,0.29563 0,0.44344c0,17.14625 12.20125,31.43031 28.36656,34.69562c-2.95625,0.80625 -6.08719,1.23625 -9.31219,1.23625c-2.28438,0 -4.50156,-0.215 -6.665,-0.645c4.515,14.04219 17.57625,24.295 33.04281,24.57719c-12.09375,9.48688 -27.34531,15.13063 -43.92719,15.13063c-2.86219,0 -5.67062,-0.16125 -8.42531,-0.49719c15.64125,10.05125 34.23875,15.89656 54.22031,15.89656c65.06438,0 100.64688,-53.89781 100.64688,-100.63344c0,-1.53187 -0.04031,-3.07719 -0.09406,-4.58219c6.90687,-4.98531 12.9,-11.22031 17.64344,-18.31531z"></path></g></g></svg>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M55.04,10.32c-24.6648,0 -44.72,20.0552 -44.72,44.72v61.92c0,24.6648 20.0552,44.72 44.72,44.72h61.92c24.6648,0 44.72,-20.0552 44.72,-44.72v-61.92c0,-24.6648 -20.0552,-44.72 -44.72,-44.72zM127.28,37.84c3.784,0 6.88,3.096 6.88,6.88c0,3.784 -3.096,6.88 -6.88,6.88c-3.784,0 -6.88,-3.096 -6.88,-6.88c0,-3.784 3.096,-6.88 6.88,-6.88zM86,48.16c20.8808,0 37.84,16.9592 37.84,37.84c0,20.8808 -16.9592,37.84 -37.84,37.84c-20.8808,0 -37.84,-16.9592 -37.84,-37.84c0,-20.8808 16.9592,-37.84 37.84,-37.84zM86,55.04c-17.0624,0 -30.96,13.8976 -30.96,30.96c0,17.0624 13.8976,30.96 30.96,30.96c17.0624,0 30.96,-13.8976 30.96,-30.96c0,-17.0624 -13.8976,-30.96 -30.96,-30.96z"></path></g></g></svg>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M158.24,13.76h-144.48c-3.78937,0 -6.88,3.09063 -6.88,6.88v99.76c0,3.78938 3.09063,6.88 6.88,6.88h37.12781c3.56094,-1.65281 6.75906,-3.37281 7.82062,-5.02562c0.25531,-2.67406 0.215,-4.93156 0.16125,-7.65938c-3.02344,-3.96406 -5.49594,-9.3525 -6.85312,-14.41844c-0.14781,-0.12094 -0.28219,-0.28219 -0.41656,-0.41656h-37.84v-79.12h144.48v79.12h-37.53094c-0.44344,0.47031 -0.91375,0.90031 -1.3975,1.29c-1.35719,4.44781 -3.56094,9.70188 -6.47688,13.69281c0.01344,2.52625 0.06719,4.95844 0.20156,7.71312c1.30344,1.62594 4.44781,3.26531 7.88781,4.82406h37.31594c3.78938,0 6.88,-3.09062 6.88,-6.88v-99.76c0,-3.78937 -3.09062,-6.88 -6.88,-6.88zM147.92,116.96h-6.88v-6.88h6.88zM147.36906,152.93219c-6.10063,-9.43312 -16.11156,-13.71969 -24.94,-17.49562c-7.49813,-3.19813 -13.98844,-5.96625 -16.16531,-10.97844c-0.28219,-4.54188 -0.30906,-8.18344 -0.30906,-12.13406c3.05031,-3.25188 6.14094,-10.105 7.44438,-15.68156c2.4725,-1.15562 5.59,-4.17906 6.30219,-12.06687c0.28219,-3.42656 -0.37625,-6.35594 -1.76031,-8.33125c3.13094,-7.02781 3.37281,-19.36344 -1.24969,-28.85031c-3.74906,-7.69969 -10.15875,-12.21469 -18.19437,-12.9l-2.53969,-5.07938c-0.57781,-1.15562 -1.77375,-1.89469 -3.07719,-1.89469c-16.16531,0 -28.93094,5.92594 -35.94531,16.70281c-5.92594,9.09719 -6.93375,20.81469 -2.82187,31.73937c-1.31688,1.84094 -2.45906,4.66281 -2.13656,8.43875c1.02125,7.44438 3.85656,10.50813 6.15438,11.75781c1.15562,6.19469 4.54187,12.75219 7.57875,15.85625c0.01344,0.76594 0.02687,1.51844 0.04031,2.24406c0.06719,3.30562 0.12094,6.16781 -0.3225,9.83625c-1.90812,5.24062 -8.50594,8.10281 -16.125,11.40844c-8.72094,3.78938 -18.5975,8.08938 -24.65781,17.415c-0.68531,1.06156 -0.7525,2.40531 -0.14781,3.52063c0.60469,1.10187 1.76031,1.80062 3.02344,1.80062h116.96c1.26313,0 2.41875,-0.68531 3.02344,-1.80062c0.60469,-1.10188 0.55094,-2.44563 -0.13437,-3.50719z"></path></g></g></svg>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M86,6.88c-43.62952,0 -79.12,35.49048 -79.12,79.12c0,43.62952 35.49048,79.12 79.12,79.12c43.62952,0 79.12,-26.31944 79.12,-79.12c0,-43.62952 -35.49048,-79.12 -79.12,-79.12zM44.5652,59.49824c-0.57448,1.79224 -2.49744,2.81392 -4.3,2.2532c-1.79912,-0.56072 -2.8208,-2.45272 -2.28072,-4.25872c1.32784,-4.41696 6.95568,-12.77272 18.77552,-12.77272c11.81984,0 17.44768,8.35576 18.77552,12.77272c0.54352,1.81632 -0.48848,3.73584 -2.30824,4.2828c-0.33024,0.09632 -0.66048,0.14448 -0.98728,0.14448c-1.47232,0 -2.83112,-0.94944 -3.28864,-2.4252c-0.26144,-0.8256 -2.80704,-7.8948 -12.19136,-7.8948c-9.39464,0 -11.9368,7.08984 -12.1948,7.89824zM86,141.04c-24.08,0 -37.84,-30.96344 -37.84,-58.48344h75.68c0,27.52 -13.76,58.48344 -37.84,58.48344zM131.70728,61.77552c-0.33024,0.09632 -0.66048,0.14448 -0.98728,0.14448c-1.48264,0 -2.84832,-0.95976 -3.29552,-2.45272c-0.24768,-0.77744 -2.7864,-7.86728 -12.18448,-7.86728c-9.39464,0 -11.9368,7.08984 -12.1948,7.89824c-0.57448,1.79224 -2.494,2.81392 -4.3,2.2532c-1.79912,-0.56072 -2.8208,-2.45272 -2.28072,-4.25872c1.32784,-4.41696 6.95568,-12.77272 18.77552,-12.77272c11.82328,0 17.45112,8.35576 18.77552,12.77272c0.54352,1.81976 -0.48848,3.73584 -2.30824,4.2828z"></path></g></g></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="copyright col d-flex justify-content-end">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="22" height="22" fill="url(#pattern0)"/>
+                            <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0" transform="scale(0.0416667)"/>
+                            </pattern>
+                            <image id="image0" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABtElEQVRIidWVu0oDURCGZxOSRlNrodgbK30Ao2DjNRGxtgsG0diYFFYiIdj4EmKtvfoCamG08FopWhsbL5DPYic4rMfdTenAcOCff+Y/OzvnHJH/bl5YEEiLSF59WET6NPQkIucicigiB57nfXasDMwDD0TbPVDopHAC2DEFLoBVYBDoUs8Ca0DD8OpAIo5Au/g7UAxL0s0sKxegHqct7eKjHXx1zojk/yKlTc+LgdgMcAI01Y+B6QCnpLl3QMolsGh6njB4LeQHjxteErhUfMElsK/BVYPNKvYBVIAe9Qqw6ahRVv6eS+BGg4MGO1Fsw9nX3zWyyr92BZsazBjsTbGemAIZ5TfbWNTcEqdwmFmBF137DXam61LMegO6PrsE2sUmDLar6xZQBXrVq66fbHJPf0XMmDYCY7rdwZhehY1pGv/iAlgOxKaAI+BV/QiYDHBWNPcW10FTUkFJ70DOSXLnjelZaQGzUeS6ESkByRBuUnf+oTm1OLtJGBHwj39ZD1G3+hCwbnrewr9Soq9rI5THv7ii7DasLVFPZkpE5sR/Mkfk58l8lJ8n89DzvK/YO/939g1NVcPPfHQtJAAAAABJRU5ErkJggg=="/>
+                            </defs>
+                            </svg>
+                        2020 iQ+ Inc.
+                    </div>
+                </div>
             </div>
-            <div class="col">
-              <div class="row _course_cards"><img src="./images/Rectangle 36.png" alt="Diesel motors photo"></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>Basics in Diesel Motors</p></div>
-            </div>
-            <div class="col">
-              <div class="row _course_cards"><img src="./images/Rectangle 37.png" alt=""></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>Basics in EV’s and Hybrids</p></div>
-            </div>
-            <div class="col">
-              <div class="row _course_cards"><img src="./images/Rectangle 38.png" alt="Weed course photo"></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>How to Grow Weed</p></div>
-            </div>
-            <div class="col">
-              <div class="row _course_cards"><img src="./images/farm-robot-course-photo.png" alt="Farm Robot course photo"></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>Farm Robots</p></div>
-            </div>
-            <div class="col">
-              <div class="row _course_cards"><img src="./images/Rectangle 40.png" alt="Farm water system photo"></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>How to Use Too Much Water to Keep Humans Alive</p></div>
-            </div>
-            <div class="col">
-              <div class="row _course_cards"><img src="./images/Rectangle 41.png" alt="Photo of computer internals"></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>How to Build a Computer</p></div>
-            </div>
-            <div class="col">
-              <div class="row _course_cards"><img src="./images/Rectangle 42.png" alt="Photo of computer code"></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>How to  Tell Your Computer What to Do</p></div>
-            </div>
-            <div class="col">
-              <div class="row _course_cards"><img src="./images/Rectangle 43.png" alt="phone viruses photo"></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>How to Remove Viruses</p></div>
-            </div>
-            <div class="col">
-              <div class="row _course_cards"><img src="./images/Rectangle 44.png" alt="photo of judge's gavel"></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>How to Practice Law</p></div>
-            </div>
-            <div class="col">
-              <div class="row _course_cards"><img src="./images/Rectangle 45.png" alt="photo of planet Earth"></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>How to Practice International Law</p></div>
-            </div>
-            <div class="col">
-              <div class="row _course_cards"><img src="./images/Rectangle 46.png" alt="photo of convict by bars"></div>
-              <div class="row my-2 mx-auto _course_label text-center"><p>Learning to Defend People you Don’t Like</p></div>
-            </div>
-          </div>
-        </section>
-
-
-      </main>
-
-      <!-- footer section -->
-      <footer>
-
-      </footer>
+        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
