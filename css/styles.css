@@ -249,6 +249,10 @@ h1 {
   text-decoration: none;
 }
 
+#homepage-categories-link a {
+  text-decoration: none;
+}
+
 .section_title {
   font-size: calc(1.5rem + 4.5vw);
 }
