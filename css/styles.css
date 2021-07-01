@@ -174,6 +174,7 @@ h1 {
   }
   /* Gallery end */
 
+  /* nav css */
 .search_bar {
     margin: 1.5rem auto;
     width: 500px;
@@ -213,9 +214,9 @@ h1 {
 .nav-item {
   border: 2px solid #BFCBB2;
 }
+/* nav css end */
 
-
-
+/* home page hero section */
 ._hero {
   background-color: #BFCBB2;
   border-radius: 20px;
@@ -237,7 +238,9 @@ h1 {
   font-size: calc(3.5rem + 1vw);
   text-shadow: -5px 0px 0px #000;
 } 
+/* hero section end */
 
+/* categories section */
 ._home_categories {
   margin: 11rem auto;
 }
@@ -305,6 +308,7 @@ h1 {
 ._courses_groups div {
   margin: 15px 0px;
 }
+/* end */
 
 /* Toast */
 .btn {
