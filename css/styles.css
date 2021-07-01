@@ -26,6 +26,7 @@ html, body {
     margin-left: 1rem;
     margin-right: 1rem;
     padding-top: 1rem;
+    font-family: 'Roboto', sans-serif;;
 
     background:rgba(0, 0, 0, .4) url("../images/farm-robot.jpg");
     /* height: 100vh; */
@@ -33,6 +34,9 @@ html, body {
     background-size: cover;
     color: #ffffff;
     background-blend-mode: overlay;
+}
+.farm {
+    color: rgb(250, 250, 250);
 }
 .product-info {
     background-color: #C8D5B9;
@@ -170,6 +174,7 @@ h1 {
   }
   /* Gallery end */
 
+  /* nav css */
 .search_bar {
     margin: 1.5rem auto;
     width: 500px;
@@ -209,9 +214,9 @@ h1 {
 .nav-item {
   border: 2px solid #BFCBB2;
 }
+/* nav css end */
 
-
-
+/* home page hero section */
 ._hero {
   background-color: #BFCBB2;
   border-radius: 20px;
@@ -233,9 +238,15 @@ h1 {
   font-size: calc(3.5rem + 1vw);
   text-shadow: -5px 0px 0px #000;
 } 
+/* hero section end */
 
+/* categories section */
 ._home_categories {
   margin: 11rem auto;
+}
+
+._home_categories a {
+  text-decoration: none;
 }
 
 .section_title {
@@ -286,7 +297,7 @@ h1 {
   max-width: 75%;
   padding: 14px 0px;
   border-radius: 5px;
-  box-shadow: 2px 2px 5px 2px rgba(41, 41, 41, 0.6);;
+  box-shadow: 2px 2px 5px 2px rgba(41, 41, 41, 0.6);
 }
 
 ._course_label p {
@@ -294,10 +305,14 @@ h1 {
   text-size-adjust: 70%;
 }
 
+.popular_courses a {
+  text-decoration: none;
+}
 
 ._courses_groups div {
   margin: 15px 0px;
 }
+/* end */
 
 /* Toast */
 .btn {
