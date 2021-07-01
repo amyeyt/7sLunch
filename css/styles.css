@@ -245,6 +245,10 @@ h1 {
   margin: 11rem auto;
 }
 
+._home_categories a {
+  text-decoration: none;
+}
+
 .section_title {
   font-size: calc(1.5rem + 4.5vw);
 }
