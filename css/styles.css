@@ -26,6 +26,7 @@ html, body {
     margin-left: 1rem;
     margin-right: 1rem;
     padding-top: 1rem;
+    font-family: 'Roboto', sans-serif;;
 
     background:rgba(0, 0, 0, .4) url("../images/farm-robot.jpg");
     /* height: 100vh; */
@@ -33,6 +34,9 @@ html, body {
     background-size: cover;
     color: #ffffff;
     background-blend-mode: overlay;
+}
+.farm {
+    color: rgb(250, 250, 250);
 }
 .product-info {
     background-color: #C8D5B9;
